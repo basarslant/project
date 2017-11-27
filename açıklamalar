@@ -2,9 +2,9 @@ Data Set Information: The data is related with direct marketing campaigns of a P
 
 Data size: 86520 entries
 Data distribution: 4120 entries for each class
-It has 21 columns which contain client data information, attributes and output variable.
+It has 21 columns which contain client data and contact information, attributes and output variable.
 
-# CLIENT DATA:
+# CLIENT DATA
 1. Age:(Numeric; in the range of 18 and 88)
 2. Job:(Categorical:'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 3. Marital:(Categorical: 'divorced','married','single','unknown')
@@ -12,6 +12,8 @@ It has 21 columns which contain client data information, attributes and output v
 5.Default: Has credit in default? (Categorical: 'no','yes','unknown')
 6.Housing: Has housing loan? (Categorical: 'no','yes','unknown')
 7.Loan: Has personal loan? (Categorical: 'no','yes','unknown')
+
+#INFORMATION OF THE LAST CONTACT
 8.Contact: Contact communication type (Categorical: 'cellular','telephone') 
 9.Month: Last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
 10.Day_of_week: Last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
