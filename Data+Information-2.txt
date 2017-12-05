@@ -1,0 +1,40 @@
+#### Data Set Information
+
+- The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. 
+
+- **Data size:** 86520 entries
+
+- **Data distribution:** 4120 entries for each class. It has 21 columns which contain client data and contact information, attributes and output variable.
+
+#### Client Data
+**1. Age:** (*Numeric;* in the range of 18 and 88)	
+**2. Job:** (*Categorical:* 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')	
+**3. Marital:** (*Categorical:* 'divorced','married','single','unknown')	
+**4.Education:** (*Categorical:*'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')	
+**5.Default:** Has credit in default? (*Categorical:* 'no','yes','unknown')		
+**6.Housing:** Has housing loan? (*Categorical:*'no','yes','unknown')	
+**7.Loan:** Has personal loan? (*Categorical:* 'no','yes','unknown')	
+
+#### Information Of The Last Contact
+**8.Contact:** Contact communication type (*Categorical:* 'cellular','telephone')	 
+**9.Month:** Last contact month of year (*Categorical:* 'jan', 'feb', 'mar', ..., 'nov', 'dec')
+**10.Day_of_week:** Last contact day of the week (*Categorical:* 'mon','tue','wed','thu','fri')
+**11.Duration:** Last contact duration(*Numeric;* in the range of 0 and 3643 seconds). 
+
+#### Other Attributes
+**12.Campaign:** Number of contacts performed during this campaign and for this client (*Numeric;* in the range of 1 and 35)	
+**13.Pdays:** Number of days that passed by after the client was last contacted from a previous campaign (*Numeric;* in the range of 0 and 999; 999 means client was not previously contacted)	
+**14.Previous:** Number of contacts performed before this campaign and for this client (*Numeric;* in the range of 0 and 6)		
+**15.Poutcome:** Outcome of the previous marketing campaign (*Categorical:* 'failure','nonexistent','success')
+
+#### Social And Economic Context Attributes 
+**16.Emp.var.rate:** Employment variation rate (*Numeric;* in the range of -3 and 1.4; quarterly indicator)		
+**17.Cons.price.idx:** Consumer price index(*Numeric;* in the range of 92201 and 94767; monthly indicator) 	
+**18.Cons.conf.idx:** Consumer confidence index (*Numeric;* in the range of -50 and -33; monthly indicator ) 	
+**19.Euribor3m:** Euribor 3 month rate (*Numeric;* in the range of 1 and 5045; daily indicator)
+**20.Nr.employed:** Number of employees (*Numeric;* in the range of 5191 and 5228.1; quarterly indicator)	
+
+#### Output Variable 
+**21.Y:** Has the client subscribed a term deposit? (*Binary:* 'yes','no')
+
+
